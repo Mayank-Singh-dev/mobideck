@@ -12,6 +12,13 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        'bacasime-antique': ['Bacasime Antique', 'serif'],
+         'homenaje' :['Homenaje']
+      },
+      boxShadow: {
+        'glow': '0 0 10px 2px #CCFF00',
+      },
     },
   },
   plugins: [],
