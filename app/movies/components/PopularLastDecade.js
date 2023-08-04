@@ -16,7 +16,7 @@ const PopularLastDecade = async () => {
       <div class="pt-8 pl-5 overflow-x-auto" id="parentDiv">
         <div class="flex gap-4">
           {PostlastDecade.map((movie) => (
-           <Tempelate key={movie.id} movie={movie}/>
+           <Tempelate key={movie?.id} movie={movie}/>
           ))}
         </div>
       </div>
