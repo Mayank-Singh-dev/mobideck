@@ -1,4 +1,4 @@
-# MobiDeck
+![image](https://github.com/Mayank-Singh-dev/mobideck/assets/114851381/8a4b873c-64bf-41f1-89ca-37d98462fe23)# MobiDeck
 
 This is a web application built using Next.js and Tailwind CSS that allows users to explore information about movies and TV shows using the MovieDB API. Users can search for specific movies or TV shows and view detailed information about them.
 
@@ -15,6 +15,7 @@ To run the web app locally on your machine, follow these steps:
 
 
 7. Open your web browser and navigate to `http://localhost:3000` to access the MovieDB web app.
+8. [Live Demo] (https://mobi-two.vercel.app/)
 
 ## Features
 
