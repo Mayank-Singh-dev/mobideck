@@ -14,7 +14,7 @@ const PopularTvshow = async () => {
       <div class="pt-8 pl-5 overflow-x-auto" id="parentDiv">
         <div class="flex gap-4">
           {TVshows.map((tvShow) => (
-            <Tempelate key={tvShow.id} tvShow={tvShow}/>
+            <Tempelate key={tvShow?.id} tvShow={tvShow}/>
             
           ))}
         </div>
@@ -24,7 +24,3 @@ const PopularTvshow = async () => {
 };
 
 export default PopularTvshow;
-
-// console.log(TVshows)
-// const awdawd=TVshows.map((movie)=>(movie.seasons))
-// console.log(awdawd)

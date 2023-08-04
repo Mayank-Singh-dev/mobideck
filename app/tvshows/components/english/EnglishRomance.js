@@ -13,7 +13,7 @@ const EnglishRomance = async() => {
       <div class="pt-8 pl-5 overflow-x-auto" id="parentDiv">
         <div class="flex gap-4">
           {engromance.map((tvShow) => (
-            <Tempelate key={tvShow.id} tvShow={tvShow}/>
+            <Tempelate key={tvShow?.id} tvShow={tvShow}/>
             
           ))}
         </div>
